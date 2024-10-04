@@ -1,4 +1,4 @@
-package leetcode.com.leetcodedailychallenge;
+package leetcode.com.leetcodedailychallenge.medium;
 
 import java.util.Arrays;
 
