@@ -3,7 +3,10 @@ package leetcode.com.leetcodedailychallenge.easy;
 import java.util.Stack;
 
 public class Problem_2696 {
-    public int minLength(String s) {
+    public static void main(String[] args) {
+        minLength("ABFCACDB");
+    }
+    public static int minLength(String s) {
         Stack<Character> stack = new Stack<>();
 
         for (char c : s.toCharArray()) {
