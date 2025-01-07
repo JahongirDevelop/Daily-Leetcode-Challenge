@@ -1,5 +1,7 @@
 package leetcode.com.leetcodedailychallenge.easy;
 
+import java.util.Arrays;
+
 public class Problem_3110 {
     /*
      Path :
@@ -17,5 +19,7 @@ public class Problem_3110 {
             }
             return score;
         }
+
+
 
 }
