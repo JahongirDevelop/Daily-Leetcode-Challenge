@@ -12,4 +12,10 @@ public class Problem_1 {
         }
         return res;
     }
+    MyClass myClass = new MyClass(){
+        @Override
+        int solve2(int[] nums) {
+            return 0;
+        }
+    };
 }
