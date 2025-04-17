@@ -3,6 +3,8 @@ package leetcode.com.leetcodedailychallenge.medium;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 public class Problem_946 {
     public static void main(String[] args) {
         String[] words1 = {"amazon","apple","facebook","google","leetcode"}, words2 = {"e","o"};
