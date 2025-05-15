@@ -29,4 +29,18 @@ public class Problem_2900 {
         return result;
     }
 
+    public static List<String> getLongestSubsequence2(String[] words, int[] groups) {
+        List<String> result = new ArrayList<>();
+        result.add(words[0]); // Boshlang'ich elementni qo'shamiz
+        for (int i = 1; i < words.length; i++) {
+            if (groups[i] != groups[i - 1]) {
+                result.add(words[i]);
+            }
+        }
+
+        return result;
+    }
+
+
+
 }
