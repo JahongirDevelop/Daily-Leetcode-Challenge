@@ -3,6 +3,11 @@ package leetcode.com.leetcodedailychallenge.uz42;
 import java.util.Arrays;
 
 public class MoveZeroes {
+    /*
+    Path :
+    https://42.uz/course/express-algoritm/lesson/nollarni-ortga-surish/masala
+   */
+
     public static void main(String[] args) {
         int[] nums = {0,1,0,3,12};
         System.out.println(Arrays.toString(moveZeroes(nums)));
